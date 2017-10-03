@@ -1,0 +1,121 @@
+.header{
+  max-height: 100px;
+  display: flex;
+}
+
+.img{
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 10px 30px;
+  flex: 1;
+
+}
+
+.nav_menu{
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav_menu li{
+  display: inline-flex;
+  list-style-type: none;
+  margin-left: 20px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.column{
+  display: flex;
+  padding-top: 40px;
+  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  justify-content: space-around;
+
+}
+.large {
+  width: 630px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.l1,.l2{
+  display: flex-block;
+  border: 1px solid black;
+  flex: 1;
+}
+
+.large .l2,.l3,.l4,.l5,.l6{
+  display: inline-flex;
+}
+
+
+.l1{
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+
+}
+.l4{
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  background-size: cover;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+.l6{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  background-repeat: repeat-2;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.medium {
+  width: 300px;
+  display: flex-block;
+  border: 1px solid black;
+}
+
+.medium .m1,.m2,.m3,.m4{
+  display: flex-block;
+  border: 1px solid black;
+}
+
+.m3{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  background-repeat: repeat-2;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  height: 300px;
+
+}
+
+.small {
+  width: 240px;
+  display: flex-block;
+  border: 1px solid black;
+}
+
+.small .s1,.s2{
+  display: flex-block;
+  border: 1px solid black;
+}
