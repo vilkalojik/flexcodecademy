@@ -42,19 +42,9 @@
 .large {
   width: 630px;
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
 }
-
-.l1,.l2{
-  display: flex-block;
-  border: 1px solid black;
-  flex: 1;
-}
-
-.large .l2,.l3,.l4,.l5,.l6{
-  display: inline-flex;
-}
-
 
 .l1{
   background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
@@ -63,22 +53,19 @@
   font-size: 30px;
   color: white;
   height: 300px;
-
 }
+
 .l4{
   background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  background-size: cover;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
   background-repeat: no-repeat;
-
 }
 .l6{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-  background-repeat: repeat-2;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
